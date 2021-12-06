@@ -1,7 +1,7 @@
 :root {
-  --primary-color: #fce138;
-  --secondary-color: #024e76;
-  --tertiary-color: #39a6b2;
+  --primary-color: #f3bd0c;
+  --secondary-color: #760202;
+  --tertiary-color: #0d0f0f;
 }
 
 * {
@@ -12,7 +12,7 @@
 
 body {
   color: var(--tertiary-color);
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif, Arial, sans-serif;
 }
 
 
@@ -147,6 +147,9 @@ section {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
+.services {
+background-color: var(--secondary-color);
+}
 .hero-form button:hover {
   background-color: var(--tertiary-color);  
 }
@@ -279,6 +282,7 @@ section {
   margin: 0 auto;
   font-size: 20px;
   text-align: center;
+  background-color: var(--primary-color);
 }
 /* WHAT YOU DO STYLES END */
 
