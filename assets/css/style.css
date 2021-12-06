@@ -353,6 +353,10 @@ background-color: var(--secondary-color);
   justify-content: space-around;
 }
 
+#your-trainers {
+  background-color: var(--tertiary-color);
+}
+
 .trainer {
   margin: 20px;
   flex: 1;
