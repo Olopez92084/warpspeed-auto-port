@@ -1,8 +1,15 @@
 # warpspeed-auto-port
 
-This page will eventually be built out into my portfolio. This is for the 2nd challenge. 
+This is the link to my portfolio page. Warpspeed Automotive Photography is my personal LLC company that is in the works. 
+We provide photo and inventory management services to automotive dealerships around the Northern Virginia area. Our photographers will come by your lot, and get any vehicles that are missing photos uploaded to your webpage, driving customers to your dealership and helping your cars sell faster. 
 
-This beta version of the portfolio will contain images from my photographer work.
+# Created with
+- CSS
+- HTML
 
-Link to Deployed Website:
+# Link to the deployed website
+
 https://olopez92084.github.io/warpspeed-auto-port/
+
+# Screenshot of webpage
+

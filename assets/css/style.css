@@ -15,9 +15,6 @@ body {
   font-family: Georgia, 'Times New Roman', Times, serif, Arial, sans-serif;
 }
 
-
-/* HEADER / NAV BAR STYLES START */
-
 header {
   padding: 20px 35px;
   background-color: var(--tertiary-color);
@@ -73,11 +70,6 @@ header nav ul li a:hover {
   text-shadow: none;
 }
 
-/* HEADER / NAVBAR STYLES END */
-
-
-
-/* FOOTER STYLES START */
 footer {
   background: var(--primary-color);
   padding: 40px 35px;
@@ -101,14 +93,11 @@ footer div {
 footer a {
   color: var(--secondary-color);
 }
-/* END FOOTER STYLES */
 
-/* STYLE ALL SECTION TAGS */
 section {
   padding: 60px;
 }
 
-/* HERO STYLES START */
 .hero {
   background-image: url('../images/hero-bg.jpg');
   background-size: cover;
@@ -116,7 +105,6 @@ section {
   justify-content: center;
   flex-wrap: wrap;
   align-items: flex-start;
-  background-attachment: fixed;
   background-position: 80%;
 }
 
@@ -251,10 +239,7 @@ background-color: var(--secondary-color);
 .radio-wrapper input:checked + label::after {
   content: "";
 }
-/* HERO STYLES END */
 
-
-/* SECTION TITLE STYLES START */
 .section-title {
   font-size: 48px;
   border-bottom: 3px solid;
@@ -272,9 +257,7 @@ background-color: var(--secondary-color);
 .secondary-border {
   border-color: var(--tertiary-color);
 }
-/* SECTION TITLE STYLES END */
 
-/* WHAT WE DO STYLES */
 .intro {background-color: var(--tertiary-color);
 }
 
@@ -287,12 +270,25 @@ background-color: var(--secondary-color);
   text-align: center;
   background-color: var(--primary-color);
 }
-/* WHAT YOU DO STYLES END */
 
 
-/* WHAT YOU DO STYLES START */
 .steps { 
   background: var(--primary-color);
+}
+
+#WorkPics {
+  display: grid;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--tertiary-color);
+  line-height: 1.7;
+  font-size: 25px;
+  text-align: center;
+}
+
+#WorkPics p {
+  color: red;
 }
 
 .step {
@@ -345,9 +341,7 @@ background-color: var(--secondary-color);
   line-height: 1.5;
   color: var(--secondary-color);
 }
-/* WHAT YOU DO STYLES END */
 
-/* MEET THE TRAINERS START */
 .trainers {
   width: 100%;
   margin: 0 auto;
@@ -390,9 +384,7 @@ background-color: var(--secondary-color);
 .trainer-bio p {
   font-size: 17px;
 }
-/* TRAINER STYLES END */
 
-/* REACH OUT STYLES START */
 .contact {
   background: var(--secondary-color);
 }
@@ -469,9 +461,7 @@ background-color: var(--secondary-color);
 .contact-info a {
   color: var(--primary-color);
 }
-/* REACH OUT STYLES END */
 
-/* UTILITIES */
 .text-left {
   text-align: left;
 }
